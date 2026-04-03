@@ -70,3 +70,12 @@ body{
 .details{
     color: #fff;
 }
+@media (max-width: 600px){
+    .content{
+        max-width: 350px;
+        max-height: 500px;
+    }
+    .weatherInfo img{
+        width: 150px;
+    }
+}
