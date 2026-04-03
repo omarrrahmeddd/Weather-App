@@ -18,8 +18,8 @@ async function getweather(city){
 
    document.querySelector(".city").innerText = data.name;
    document.querySelector(".degree").innerText = Math.round(data.main.temp) + "°C";
-   document.querySelector(".humidity").innerText = "Humidity: " + data.main.humidity + "%";
-   document.querySelector(".windd").innerText = "Wind Speed: " + data.wind.speed + " km/h";
+   document.querySelector(".humidity").innerText =  data.main.humidity + "%";
+   document.querySelector(".windd").innerText = data.wind.speed + " km/h";
 
 }
 
