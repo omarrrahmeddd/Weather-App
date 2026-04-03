@@ -20,4 +20,4 @@ Interactive UI: Glassmorphism design with hover effects and "Enter" key support.
 Error Handling: Built-in alerts for invalid city names.
 
 # Live Demo
-[View App](https://weatherrr-apppppp-oa.vercel.app/)
+[View App](https://weather-appp-oa.vercel.app/)
